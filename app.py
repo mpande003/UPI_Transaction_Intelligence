@@ -124,7 +124,7 @@ elif page == "NPCI Analytics":
     if forecast is not None:
         st.markdown("#### Six-month forecast")
         st.dataframe(forecast, use_container_width=True, hide_index=True)
-        date_col = next((c for c in ["date", "Date", "month", "Month", "forecast_month"] if c in forecast.columns), None)
+        date_col = next((c for c in ["date", "Date", "month", "Month", "month_date", "Month_Date", "forecast_month", "forecast_month_date"] if c in forecast.columns), None)
         if date_col:
             forecast[date_col] = forecast[date_col].astype(str)
             numeric_cols = [c for c in forecast.columns if c != date_col and pd.api.types.is_numeric_dtype(forecast[c])]
