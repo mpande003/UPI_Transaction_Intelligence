@@ -1,0 +1,3 @@
+target,selected_model,selected_MAE,selected_RMSE,selected_MAPE_percent
+value_cr,Holt-Winters (additive trend + seasonality),62168.07449262065,69439.29283459962,2.146694164664654
+volume_mn,Holt-Winters (additive trend + seasonality),465.2152860709687,528.4781917810843,2.076239678809774

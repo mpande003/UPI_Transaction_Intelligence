@@ -1,0 +1,73 @@
+month_date,target,model,actual,predicted
+2025-10-01,volume_mn,Random Forest,20700.92,19229.579069285723
+2025-11-01,volume_mn,Random Forest,20466.98,19232.59904636906
+2025-12-01,volume_mn,Random Forest,21634.67,19126.719529940478
+2026-01-01,volume_mn,Random Forest,21703.44,18912.769807886893
+2026-02-01,volume_mn,Random Forest,20394.18,18889.554896220227
+2026-03-01,volume_mn,Random Forest,22641.11,19051.406168303565
+2026-04-01,volume_mn,Random Forest,22346.8,19056.171306696426
+2026-05-01,volume_mn,Random Forest,23201.93,19087.014646577372
+2026-06-01,volume_mn,Random Forest,22716.07,19118.23514907738
+2026-07-01,volume_mn,Random Forest,23658.35,19428.31903547621
+2026-08-01,volume_mn,Random Forest,24508.96,19438.30460892859
+2026-09-01,volume_mn,Random Forest,24068.38,19426.15498303573
+2025-10-01,volume_mn,Seasonal Naive (lag 12),20700.92,16584.97
+2025-11-01,volume_mn,Seasonal Naive (lag 12),20466.98,15482.02
+2025-12-01,volume_mn,Seasonal Naive (lag 12),21634.67,16730.01
+2026-01-01,volume_mn,Seasonal Naive (lag 12),21703.44,16996.0
+2026-02-01,volume_mn,Seasonal Naive (lag 12),20394.18,16106.19
+2026-03-01,volume_mn,Seasonal Naive (lag 12),22641.11,18301.51
+2026-04-01,volume_mn,Seasonal Naive (lag 12),22346.8,17893.42
+2026-05-01,volume_mn,Seasonal Naive (lag 12),23201.93,18677.46
+2026-06-01,volume_mn,Seasonal Naive (lag 12),22716.07,18395.01
+2026-07-01,volume_mn,Seasonal Naive (lag 12),23658.35,19467.95
+2026-08-01,volume_mn,Seasonal Naive (lag 12),24508.96,20008.31
+2026-09-01,volume_mn,Seasonal Naive (lag 12),24068.38,19633.43
+2025-10-01,volume_mn,Holt-Winters (additive trend + seasonality),20700.92,21143.101150273065
+2025-11-01,volume_mn,Holt-Winters (additive trend + seasonality),20466.98,20328.287390047342
+2025-12-01,volume_mn,Holt-Winters (additive trend + seasonality),21634.67,21552.375727107898
+2026-01-01,volume_mn,Holt-Winters (additive trend + seasonality),21703.44,21802.725768158496
+2026-02-01,volume_mn,Holt-Winters (additive trend + seasonality),20394.18,21232.416924627418
+2026-03-01,volume_mn,Holt-Winters (additive trend + seasonality),22641.11,23239.237804027674
+2026-04-01,volume_mn,Holt-Winters (additive trend + seasonality),22346.8,22892.248276984446
+2026-05-01,volume_mn,Holt-Winters (additive trend + seasonality),23201.93,23661.51322770075
+2026-06-01,volume_mn,Holt-Winters (additive trend + seasonality),22716.07,23436.159112234993
+2026-07-01,volume_mn,Holt-Winters (additive trend + seasonality),23658.35,24339.067135904752
+2026-08-01,volume_mn,Holt-Winters (additive trend + seasonality),24508.96,24784.760389310646
+2026-09-01,volume_mn,Holt-Winters (additive trend + seasonality),24068.38,24770.50676078462
+2025-10-01,value_cr,Random Forest,2727790.68,2460534.261269643
+2025-11-01,value_cr,Random Forest,2631632.63,2461048.496065476
+2025-12-01,value_cr,Random Forest,2796712.73,2458371.652090476
+2026-01-01,value_cr,Random Forest,2833481.22,2453999.237027321
+2026-02-01,value_cr,Random Forest,2684229.29,2453823.781833987
+2026-03-01,value_cr,Random Forest,2952542.05,2474453.850131209
+2026-04-01,value_cr,Random Forest,2902988.05,2476044.6849015057
+2026-05-01,value_cr,Random Forest,2990424.21,2478854.7020173375
+2026-06-01,value_cr,Random Forest,2892138.67,2478658.5557436473
+2026-07-01,value_cr,Random Forest,2987880.49,2484094.080681981
+2026-08-01,value_cr,Random Forest,2982355.95,2481356.5530207325
+2026-09-01,value_cr,Random Forest,2937396.67,2481048.6569343647
+2025-10-01,value_cr,Seasonal Naive (lag 12),2727790.68,2349821.46
+2025-11-01,value_cr,Seasonal Naive (lag 12),2631632.63,2155187.4
+2025-12-01,value_cr,Seasonal Naive (lag 12),2796712.73,2324699.91
+2026-01-01,value_cr,Seasonal Naive (lag 12),2833481.22,2348037.12
+2026-02-01,value_cr,Seasonal Naive (lag 12),2684229.29,2196481.69
+2026-03-01,value_cr,Seasonal Naive (lag 12),2952542.05,2477221.61
+2026-04-01,value_cr,Seasonal Naive (lag 12),2902988.05,2394925.87
+2026-05-01,value_cr,Seasonal Naive (lag 12),2990424.21,2514297.01
+2026-06-01,value_cr,Seasonal Naive (lag 12),2892138.67,2403930.69
+2026-07-01,value_cr,Seasonal Naive (lag 12),2987880.49,2508498.09
+2026-08-01,value_cr,Seasonal Naive (lag 12),2982355.95,2485472.91
+2026-09-01,value_cr,Seasonal Naive (lag 12),2937396.67,2489736.54
+2025-10-01,value_cr,Holt-Winters (additive trend + seasonality),2727790.68,2722867.539237269
+2025-11-01,value_cr,Holt-Winters (additive trend + seasonality),2631632.63,2601893.054741913
+2025-12-01,value_cr,Holt-Winters (additive trend + seasonality),2796712.73,2739686.990348169
+2026-01-01,value_cr,Holt-Winters (additive trend + seasonality),2833481.22,2747865.3377286927
+2026-02-01,value_cr,Holt-Winters (additive trend + seasonality),2684229.29,2648363.2333817044
+2026-03-01,value_cr,Holt-Winters (additive trend + seasonality),2952542.05,2874692.93537975
+2026-04-01,value_cr,Holt-Winters (additive trend + seasonality),2902988.05,2809696.881230525
+2026-05-01,value_cr,Holt-Winters (additive trend + seasonality),2990424.21,2899754.3316334584
+2026-06-01,value_cr,Holt-Winters (additive trend + seasonality),2892138.67,2815628.6479126723
+2026-07-01,value_cr,Holt-Winters (additive trend + seasonality),2987880.49,2900690.8520117067
+2026-08-01,value_cr,Holt-Winters (additive trend + seasonality),2982355.95,2890716.7971826806
+2026-09-01,value_cr,Holt-Winters (additive trend + seasonality),2937396.67,2921699.1453000107

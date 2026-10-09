@@ -1,0 +1,7 @@
+month_date,forecast_volume_mn,forecast_value_cr,volume_model_selected,value_model_selected
+2026-10-01,25212.179039967334,3219261.50829733,Holt-Winters (additive trend + seasonality),Holt-Winters (additive trend + seasonality)
+2026-11-01,24821.077948816466,3108598.5096797543,Holt-Winters (additive trend + seasonality),Holt-Winters (additive trend + seasonality)
+2026-12-01,25921.642822776997,3260620.185106203,Holt-Winters (additive trend + seasonality),Holt-Winters (additive trend + seasonality)
+2027-01-01,26012.050071901307,3278296.901350761,Holt-Winters (additive trend + seasonality),Holt-Winters (additive trend + seasonality)
+2027-02-01,25040.560723675437,3136604.150555902,Holt-Winters (additive trend + seasonality),Holt-Winters (additive trend + seasonality)
+2027-03-01,27339.29267849561,3394545.8379659364,Holt-Winters (additive trend + seasonality),Holt-Winters (additive trend + seasonality)

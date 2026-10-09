@@ -1,0 +1,19 @@
+target,model,metric,score
+value_cr,Holt-Winters (additive trend + seasonality),MAE,62168.07449262065
+value_cr,Random Forest,MAE,389773.6773568599
+value_cr,Seasonal Naive (lag 12),MAE,472605.195
+value_cr,Holt-Winters (additive trend + seasonality),MAPE_percent,2.146694164664654
+value_cr,Random Forest,MAPE_percent,13.48770994514966
+value_cr,Seasonal Naive (lag 12),MAPE_percent,16.540732626686506
+value_cr,Holt-Winters (additive trend + seasonality),RMSE,69439.29283459962
+value_cr,Random Forest,RMSE,405037.61964707513
+value_cr,Seasonal Naive (lag 12),RMSE,473674.5771832501
+volume_mn,Holt-Winters (additive trend + seasonality),MAE,465.2152860709687
+volume_mn,Random Forest,MAE,3170.413479350195
+volume_mn,Seasonal Naive (lag 12),MAE,4480.459166666665
+volume_mn,Holt-Winters (additive trend + seasonality),MAPE_percent,2.076239678809774
+volume_mn,Random Forest,MAPE_percent,13.914730488722268
+volume_mn,Seasonal Naive (lag 12),MAPE_percent,20.145377155427568
+volume_mn,Holt-Winters (additive trend + seasonality),RMSE,528.4781917810843
+volume_mn,Random Forest,RMSE,3400.6887635475496
+volume_mn,Seasonal Naive (lag 12),RMSE,4487.803879101113

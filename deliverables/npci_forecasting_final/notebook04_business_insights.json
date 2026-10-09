@@ -1,0 +1,65 @@
+{
+  "data_window": {
+    "observations": 126,
+    "start_month": "2016-04-01",
+    "end_month": "2026-09-01"
+  },
+  "latest_observed_month": "2026-09-01",
+  "latest_observed": {
+    "volume_mn": 24068.38,
+    "value_cr": 2937396.67
+  },
+  "selected_models": {
+    "value_cr": {
+      "model": "Holt-Winters (additive trend + seasonality)",
+      "MAE": 62168.07449262065,
+      "RMSE": 69439.29283459962,
+      "MAPE_percent": 2.146694164664654
+    },
+    "volume_mn": {
+      "model": "Holt-Winters (additive trend + seasonality)",
+      "MAE": 465.2152860709687,
+      "RMSE": 528.4781917810843,
+      "MAPE_percent": 2.076239678809774
+    }
+  },
+  "holdout_months": 12,
+  "forecast_horizon_months": 6,
+  "forecast": {
+    "months": [
+      "2026-10-01",
+      "2026-11-01",
+      "2026-12-01",
+      "2027-01-01",
+      "2027-02-01",
+      "2027-03-01"
+    ],
+    "volume_mn": [
+      25212.179039967334,
+      24821.077948816463,
+      25921.642822777,
+      26012.050071901307,
+      25040.56072367544,
+      27339.29267849561
+    ],
+    "value_cr": [
+      3219261.50829733,
+      3108598.5096797543,
+      3260620.185106203,
+      3278296.901350761,
+      3136604.150555902,
+      3394545.8379659364
+    ]
+  },
+  "limitations": [
+    "Monthly aggregate forecasts, not transaction-level predictions.",
+    "Forecasts are point estimates without prediction intervals.",
+    "Model ranking reflects one chronological holdout window.",
+    "Forecast accuracy depends on source data quality and future structural stability.",
+    "Descriptive changes do not establish causality."
+  ],
+  "forecast_change_first_to_last_percent": {
+    "volume_mn": 8.436849647768607,
+    "value_cr": 5.4448614757399705
+  }
+}

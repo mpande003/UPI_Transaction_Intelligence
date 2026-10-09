@@ -1,0 +1,44 @@
+{
+  "project": "UPI Transaction Intelligence",
+  "pipeline": "NPCI monthly aggregate forecasting",
+  "generated_at_utc": "2026-10-09T21:52:09Z",
+  "historical_data": {
+    "observations": 126,
+    "start_month": "2016-04-01",
+    "end_month": "2026-09-01"
+  },
+  "evaluation": {
+    "holdout_months": 12,
+    "selection_rule": "Lowest RMSE on the chronological holdout, independently for each target",
+    "selected_models": [
+      {
+        "target": "volume_mn",
+        "selected_model": "Holt-Winters (additive trend + seasonality)",
+        "MAE": 465.2152860709687,
+        "RMSE": 528.4781917810843,
+        "MAPE_percent": 2.076239678809774
+      },
+      {
+        "target": "value_cr",
+        "selected_model": "Holt-Winters (additive trend + seasonality)",
+        "MAE": 62168.07449262065,
+        "RMSE": 69439.29283459962,
+        "MAPE_percent": 2.146694164664654
+      }
+    ]
+  },
+  "forecast": {
+    "horizon_months": 6,
+    "first_forecast_month": "2026-10-01",
+    "last_forecast_month": "2027-03-01",
+    "volume_first_to_last_change_percent": 8.436849647768607,
+    "value_first_to_last_change_percent": 5.4448614757399705
+  },
+  "limitations": [
+    "Forecasts are monthly aggregates, not transaction-level predictions.",
+    "Forecasts are point estimates; prediction intervals are not provided.",
+    "Model selection is based on one chronological holdout window.",
+    "Performance may change if future conditions differ from historical patterns.",
+    "Forecasts do not establish causal relationships."
+  ]
+}

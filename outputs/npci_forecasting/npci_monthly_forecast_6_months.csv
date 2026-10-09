@@ -1,0 +1,7 @@
+month_date,forecast_volume_mn,forecast_value_cr,volume_model_selected,value_model_selected
+2026-10-01,23804.541326994044,2922288.7870692746,Random Forest,Random Forest
+2026-11-01,23770.246038660705,2927146.374175347,Random Forest,Random Forest
+2026-12-01,23683.84069044642,2925525.654900348,Random Forest,Random Forest
+2027-01-01,23566.46449017856,2928701.818395704,Random Forest,Random Forest
+2027-02-01,23564.50366017856,2924171.0449730842,Random Forest,Random Forest
+2027-03-01,23602.962161011896,2950530.308304155,Random Forest,Random Forest
